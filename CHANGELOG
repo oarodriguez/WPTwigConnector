@@ -1,0 +1,18 @@
+WPTwigConnector Changelog
+========================================
+
+Initial release (2012-11-19)
+-------------------------------------
+
+* The next Wordpress functions can be used in templates:
+    - `the_title`
+    - `language_attributes`
+    - `bloginfo`
+    
+* Other useful functions:
+    - `style_url`
+    - `less_url`
+    - `script_url`
+
+
+

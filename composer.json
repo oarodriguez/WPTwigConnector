@@ -1,0 +1,23 @@
+{
+    "name" : "oarodriguez/WpTwigConnector",
+    "type": "library",
+    "description": "A library to create Wordpress themes using the Twig template engine",
+    "keywords": ["Twig, Wordpress", "theme", "templates"],
+    "homepage": "https://github.com/oarodriguez/WPTwigConnector",
+    "license": "BSD-3",
+    "authors": [
+        {
+            "name": "Abel Rodríguez",
+            "email": "oarodriguez@live.com.mx"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "twig/twig": ">=1.8.0,<2.0-dev"
+    },
+    "autoload": {
+        "psr-0" : {
+            "WPTwigConnector" : "lib/"
+        }
+    }
+}
